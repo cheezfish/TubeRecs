@@ -128,10 +128,10 @@ public class TubeRecs {
     }
 }
 
- class Station //declares the record, and parts of it
-        {
-            String name; 
-            int zone;
-            boolean accessibility;
-        }
+class Station //declares the record, and parts of it
+{
+    String name; 
+    int zone;
+    boolean accessibility;
+}
     
