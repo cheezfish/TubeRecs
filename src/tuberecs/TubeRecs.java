@@ -56,6 +56,7 @@ public class TubeRecs {
     {
         
         System.out.println("Please choose a station");
+        System.out.println("St Pauls, Bank, Liverpool Street, Bethnal Green, Mile End, Stratford");
         Scanner train = new Scanner(System.in);
         String choose = train.nextLine();
         
