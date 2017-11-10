@@ -7,7 +7,8 @@ import java.util.Scanner;
  * @author Imran Aziz 17:03 5th Oct 2017
  */
 
-public class TubeRecs {
+public class TubeRecs 
+{
             
     public static void main(String[] args) 
     {
@@ -106,11 +107,13 @@ public class TubeRecs {
         else 
         {
             System.out.println("Please try again, the following issues may have occured:");
-            System.out.println("The station you entered is not in our database");
-            System.out.println("You mistyped the name");
+            System.out.println("1. The station you entered is not in our database");
+            System.out.println("2. You mistyped the name");
             System.out.println("");
             output(s1, s2, s3, s4, s5, s6);
         }
+        
+        System.exit(0);
         
     }
     
